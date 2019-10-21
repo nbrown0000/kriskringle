@@ -28,7 +28,7 @@
   flex-flow: row wrap;
 }
 
-.box {
+.column {
   display: flex;
   flex-direction: column;
   padding: 20px;
