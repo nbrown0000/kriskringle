@@ -1,4 +1,4 @@
-#Kris Kringle generator
+# Kris Kringle generator
 
 ## A simple app to assign guests an individual Kris Kringle
 
