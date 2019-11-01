@@ -21,8 +21,19 @@ class App extends Component {
   handleSubmit(event) {
     
     var output = [];
+    var list1 = this.state.value.split("\n")
+    var list2 = this.state.value.split("\n")
 
-    // do stuff
+    while(list1.length && list2.length) {
+      var random1 = Math.floor(Math.random() * list1.length)
+      var random2 = Math.floor(Math.random() * list2.length)
+
+      if(list1[random1] !== list2[random2]) {
+        const removed1 = list1.splice(random1,1)
+        const removed2 = list2.splice(random2,1)
+        output.push(`${removed1} => ${removed2}`)
+      }
+    }
 
     this.setState({result: output})
     event.preventDefault();
