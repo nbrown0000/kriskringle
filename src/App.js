@@ -22,45 +22,12 @@ class App extends Component {
 
   handleSubmit(event) {
     
-
     console.clear();
     if(!this.state.input) return
-    // this.setState({submitDisabled:true});
 
-    var output = [];
-    var list1 = this.state.input.split("\n");
-    var list2 = this.state.input.split("\n");
-
-    for(var i=0; i<list1.length; i++) {
-      const random = Math.floor(Math.random() * list2.length)
-      if(list1[i] !== list2[random]) {
-        output.push(`${list1[i]} buys for ${list2.splice(random,1)}`)
-      }
-      else {
-        if(list2[random+1]) {
-          output.push(`${list1[i]} buys for ${list2.splice(random+1,1)}`)
-        }
-        else {
-          output.push(`${list1[i]} buys for ${list2.splice(random-1,1)}`)
-        }
-      }
-    }
-    // console.log(list1.length)
-    // var count = list1.length
-    // while(count >= 1) {
-    //   const random1 = Math.floor(Math.random() * list1.length)
-    //   const random2 = Math.floor(Math.random() * list2.length)
-    //   if(list1[random1]!==list2[random2]) {
-    //     //output.push(`${list1.splice(random1,1)} => ${list2.splice(random2,1)}`)
-    //     const item1 = list1.splice(random1,1)
-    //     const item2 = list2.splice(random2,1)
-    //     output.push(`${item1} => ${item2}`)
-    //     count--;
-    //   }
-    // }
-    
+    // do stuff
+       
     this.setState({result: output})
-    // this.setState({submitDisabled:false});
     event.preventDefault();
   }
 
