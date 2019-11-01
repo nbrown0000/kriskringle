@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/kriskringle/precache-manifest.6d5dbbf9955ef19e989aeb28941e0b4d.js"
+  "/kriskringle/precache-manifest.6187946fff1e66589df81a6442a742ca.js"
 );
 
 self.addEventListener('message', (event) => {

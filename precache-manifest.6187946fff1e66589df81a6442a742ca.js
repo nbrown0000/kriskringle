@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "602117867acac1c61c9eadd84529f232",
+    "revision": "fe9033eb9d9dca49b4b6ccaaa95e2c7d",
     "url": "/kriskringle/index.html"
   },
   {
-    "revision": "5efdb656ac7b6476d977",
+    "revision": "d992a5de6ec55a68c09b",
     "url": "/kriskringle/static/css/main.25f56a0d.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kriskringle/static/js/2.758517c9.chunk.js"
   },
   {
-    "revision": "5efdb656ac7b6476d977",
-    "url": "/kriskringle/static/js/main.8dea4365.chunk.js"
+    "revision": "d992a5de6ec55a68c09b",
+    "url": "/kriskringle/static/js/main.440483b6.chunk.js"
   },
   {
     "revision": "7c1b509e9711b17334ff",
